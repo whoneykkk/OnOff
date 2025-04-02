@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "718171459923",
+    "project_id": "onoff-2121a",
+    "storage_bucket": "onoff-2121a.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:718171459923:android:f84775daa40db1859891a6",
+        "android_client_info": {
+          "package_name": "com.example.onoff"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCOsghwM9AKpZ0kQbkNBm8n2PC5OwoH0mU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

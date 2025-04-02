@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="20dp"
+    tools:ignore="ExtraText">
+
+    <TextView
+        android:text="교통 모드"
+        style="@style/CustomTitle2"
+        />
+
+    <TextView
+        style="@style/CustomTitle"
+        android:text="시간"
+        android:layout_marginBottom="15dp"
+        />
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:background="@drawable/custom_background"
+        android:backgroundTint="#D9D9D9"
+        android:id="@+id/recycler_keywords"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1" />
+
+</LinearLayout>

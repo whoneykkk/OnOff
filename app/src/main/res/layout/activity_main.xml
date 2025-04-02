@@ -1,0 +1,225 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#F5F5F5"
+    android:orientation="vertical"
+    android:padding="20dp">
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="60dp"
+        android:src="@drawable/headphones_solid" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginBottom="20dp"
+        android:fontFamily="@font/NanumSquare_acR"
+        android:paddingTop="12dp"
+        android:text="노이즈 캔슬링이 해제 됩니다."
+        android:textColor="#514F4F"
+        android:textSize="12dp"
+        tools:ignore="TextSizeCheck" />
+
+    <TextView
+        style="@style/CustomTitle"
+        android:text="정확도"
+        tools:ignore="TextSizeCheck" />
+
+    <SeekBar
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:background="@drawable/custom_background"
+        android:backgroundTint="#D9D9D9"
+        android:progress="50"
+        android:progressTint="#7D7D7D"
+        android:thumbTint="#0087EE" />
+
+    <TextView
+        style="@style/CustomTitle"
+        android:text="모드"
+        tools:ignore="TextSizeCheck" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/custom_background"
+        android:backgroundTint="#D9D9D9"
+        android:orientation="vertical"
+        android:padding="5dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <Button
+                style="@style/CustomButton"
+                android:layout_weight="1"
+                android:background="@drawable/custom_background"
+                android:text="대중 교통"
+                tools:ignore="TextSizeCheck" />
+
+            <Button
+                style="@style/CustomButton"
+                android:layout_weight="1"
+                android:background="@drawable/custom_background"
+                android:backgroundTint="#0087EE"
+                android:text="도보 모드"
+                tools:ignore="TextSizeCheck" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <Button
+                style="@style/CustomButton"
+                android:layout_weight="1"
+                android:background="@drawable/custom_background"
+                android:text="사용자 설정1"
+                tools:ignore="TextSizeCheck" />
+
+            <Button
+                style="@style/CustomButton"
+                android:layout_weight="1"
+                android:background="@drawable/custom_background"
+                android:text="사용자 설정2"
+                tools:ignore="TextSizeCheck" />
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <TextView
+        style="@style/CustomTitle"
+        android:text="즐겨찾기된 키워드"
+        tools:ignore="TextSizeCheck" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:background="@drawable/custom_background"
+        android:backgroundTint="#D9D9D9"
+        >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:orientation="horizontal"
+            android:paddingLeft="5dp">
+            <TextView
+                style="@style/CustomText"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="5dp"
+                android:layout_weight="1"
+                android:text="종합터미널"
+                android:textColor="#000000"
+                tools:ignore="TextSizeCheck" />
+
+            <Switch
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                tools:ignore="UseSwitchCompatOrMaterialXml,TouchTargetSizeCheck" />
+        </LinearLayout>
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="#7D7D7D"/>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:orientation="horizontal"
+            android:paddingLeft="5dp">
+            <TextView
+                style="@style/CustomText"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="5dp"
+                android:layout_weight="1"
+                android:text="두정역"
+                android:textColor="#000000"
+                tools:ignore="TextSizeCheck" />
+
+            <Switch
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                tools:ignore="UseSwitchCompatOrMaterialXml,TouchTargetSizeCheck" />
+        </LinearLayout>
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="#7D7D7D"/>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:orientation="horizontal"
+            android:paddingLeft="5dp">
+            <TextView
+                style="@style/CustomText"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="5dp"
+                android:layout_weight="1"
+                android:text="공주대 공과대"
+                android:textColor="#000000"
+                tools:ignore="TextSizeCheck" />
+
+            <Switch
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                tools:ignore="UseSwitchCompatOrMaterialXml,TouchTargetSizeCheck" />
+        </LinearLayout>
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="#7D7D7D"/>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:orientation="horizontal"
+            android:paddingLeft="5dp">
+            <TextView
+                style="@style/CustomText"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="5dp"
+                android:layout_weight="1"
+                android:text="천안역"
+                android:textColor="#000000"
+                tools:ignore="TextSizeCheck" />
+
+            <Switch
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                tools:ignore="UseSwitchCompatOrMaterialXml,TouchTargetSizeCheck" />
+        </LinearLayout>
+    </LinearLayout>
+
+    <TextView
+        style="@style/CustomTitle"
+        android:text="내 키워드"
+        tools:ignore="TextSizeCheck" />
+
+    <Button
+        style="@style/CustomText"
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:background="@drawable/custom_background"
+        android:backgroundTint="#D9D9D9"
+        android:gravity="start|center_vertical"
+        android:paddingLeft="10dp"
+        android:text="“두정역”, “종합터미널”, “지연” ..."
+        android:stateListAnimator="@null"
+        tools:ignore="TextSizeCheck" />
+
+
+</LinearLayout>
